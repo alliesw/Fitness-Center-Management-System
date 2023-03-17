@@ -33,13 +33,13 @@ decrypted = open('decrypted', 'w')
 decrypted.write(decrypt(cipher))
 decrypted.close()
 
-
-/*** ALT with TEXT data 
+## ALT with TEXT data example for pycryptodome with a base64-encoded message using an OpenPGP mode block cipher. 
+## (OpenPGP stores the encrypted IV (initialization vector) into the first 18 bytes of the encrypted message) 
 
 import base64
 from Crypto.Cipher import AES
 
-input_data = b'I am a secret'
+input_data = b'I am a secret message'
 key = b'Sixteen byte key'
 
 ## ENCRYPTION
