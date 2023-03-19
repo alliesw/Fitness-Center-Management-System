@@ -1,5 +1,2 @@
-# Basic Gym Management System
-Basic Gym Management System Functions: 
-Administrative login portal, Registration, Payment, Membership Package Options, and Search for an Existing Trainer in the System
-
-
+Fitness Center Management System with Basic Functions
+# SRC - Visual Studio Code files are updated from original PHP files + SQL & style sheet version
